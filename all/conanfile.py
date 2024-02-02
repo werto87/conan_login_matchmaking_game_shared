@@ -7,7 +7,7 @@ required_conan_version = ">=1.51.1"
 
 
 class ConanHeaderOnly(ConanFile):
-    name = "lib_name"
+    name = "login_matchmaking_game_shared"
     package_type = "header-library"
     settings = "os", "arch", "compiler", "build_type"
     generators = "CMakeDeps", "CMakeToolchain"
@@ -23,6 +23,7 @@ class ConanHeaderOnly(ConanFile):
 
     def requirements(self):
         self.requires("boost/1.84.0")
+        self.requires("durak/1.0.0")
 
     def layout(self):
         cmake_layout(self, src_folder=self.name + "-" + str(self.version))
