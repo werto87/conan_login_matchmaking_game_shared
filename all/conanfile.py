@@ -23,8 +23,8 @@ class ConanHeaderOnly(ConanFile):
 
     def requirements(self):
         self.requires("modern_durak_game_option/latest")
-        self.requires("boost/1.84.0")
-        self.requires("durak/1.0.3")
+        self.requires("boost/1.85.0")
+        self.requires("durak/1.0.5")
 
     def layout(self):
         cmake_layout(self, src_folder=self.name + "-" + str(self.version))

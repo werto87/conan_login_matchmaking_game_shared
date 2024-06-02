@@ -4,6 +4,6 @@
         "conan": {}
     },
     "include": [
-        "/home/walde/PycharmProjects/conan_login_matchmaking_game_shared/all/test_package/build/gcc-13-x86_64-gnu20-release/generators/CMakePresets.json"
+        "build/gcc-14-x86_64-gnu20-release/generators/CMakePresets.json"
     ]
 }
