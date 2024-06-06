@@ -22,7 +22,6 @@ class ConanHeaderOnly(ConanFile):
         self.options["fmt"].header_only = True
 
     def requirements(self):
-        self.requires("modern_durak_game_option/latest")
         self.requires("boost/1.85.0")
         self.requires("durak/1.0.5")
 
