@@ -19,7 +19,6 @@ class ConanHeaderOnly(ConanFile):
         if self.settings.compiler.cppstd:
             check_min_cppstd(self, "20")
         self.options["boost"].header_only = True
-        self.options["fmt"].header_only = True
 
     def requirements(self):
         self.requires("boost/1.85.0")
