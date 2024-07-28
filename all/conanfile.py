@@ -23,7 +23,7 @@ class ConanHeaderOnly(ConanFile):
 
     def requirements(self):
         self.requires("boost/1.85.0")
-        self.requires("durak/1.0.5")
+        self.requires("durak/1.1.0")
 
     def layout(self):
         cmake_layout(self, src_folder=self.name + "-" + str(self.version))
