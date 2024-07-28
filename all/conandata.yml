@@ -2,6 +2,6 @@ sources:
   latest:
     url: https://github.com/werto87/login_matchmaking_game_shared/archive/refs/heads/main.zip
 
-  0.0.0:
-    url: https://github.com/werto87/login_matchmaking_game_shared/archive/refs/tags/v0.0.0.tar.gz
-    sha256: f9915cad4e79f84d9e5d6015ca23bcf2ea38521fddee23d62e42130a4c7efd43
+  0.0.1:
+    url: https://github.com/werto87/login_matchmaking_game_shared/archive/refs/tags/v0.0.1.tar.gz
+    sha256: b3f4025f312b5b3e3ea359387ffe4900d095f4a30195424f332d8746ff81b96c
