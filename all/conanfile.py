@@ -30,3 +30,6 @@ class ConanHeaderOnly(ConanFile):
         cmake = CMake(self)
         cmake.configure()
         cmake.install()
+
+    def package_info(self):
+        self.cpp_info.components[self.name].requires = ["boost::headers"]
