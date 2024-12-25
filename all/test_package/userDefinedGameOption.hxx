@@ -29,7 +29,7 @@
    showOpponentCards,
  };
  }
- BOOST_FUSION_DEFINE_STRUCT ((shared_class), GameOption, (durak::GameOption, gameOption) (shared_class::TimerOption, timerOption) (uint64_t, computerControlledPlayerCount) (shared_class::OpponentCards, opponentCards)) // TODO-TEMPLATE add game options
+ BOOST_FUSION_DEFINE_STRUCT ((shared_class), GameOption, (shared_class::TimerOption, timerOption) (uint64_t, computerControlledPlayerCount) (shared_class::OpponentCards, opponentCards)) // TODO-TEMPLATE add game options
 
  std::optional<std::string> inline errorInGameOption (shared_class::GameOption const &)
 {
