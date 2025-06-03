@@ -20,7 +20,7 @@ class ConanHeaderOnly(ConanFile):
             check_min_cppstd(self, "20")
 
     def requirements(self):
-        self.requires("boost/1.85.0")
+        self.requires("boost/1.86.0")
   
 
     def layout(self):
